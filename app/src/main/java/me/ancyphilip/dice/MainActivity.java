@@ -48,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, UnitConverterActivity.class);
         startActivity(intent);
     }
+
+    public void showWeather(View view){
+        Intent intent = new Intent(MainActivity.this, DataFromWebActivity.class);
+        startActivity(intent);
+    }
 }
